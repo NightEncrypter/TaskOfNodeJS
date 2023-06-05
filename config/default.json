@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://manass:manas@cluster0.kg5sxus.mongodb.net/authAPI?retryWrites=true&w=majority",
+  "secret": "Manas"
+}
