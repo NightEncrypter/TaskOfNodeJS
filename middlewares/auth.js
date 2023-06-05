@@ -3,7 +3,7 @@ const jwt = require("jsonwebtoken");
 const config = require("config");
 
 module.exports = (req, res, next) => {
-  const token = req.header("auth-token");
+  const token = req.header("Aspire123");
 
   if (!token) {
     return res.status(401).json({ msg: "NO TOKEN, Authorization denied" });
